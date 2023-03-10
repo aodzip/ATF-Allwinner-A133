@@ -130,6 +130,9 @@ void bl31_platform_setup(void)
 	case SUNXI_SOC_R329:
 		soc_name = "R329";
 		break;
+	case SUNXI_SOC_A133:
+		soc_name = "A133";
+		break;
 	default:
 		soc_name = "unknown";
 		break;
